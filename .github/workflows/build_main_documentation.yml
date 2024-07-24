@@ -69,7 +69,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: 'huggingface/doc-builder'
+          repository: 'jrhe/huggingface_doc-builder'
           path: doc-builder
         
       - uses: actions/checkout@v2
